@@ -1,0 +1,72 @@
+[
+    {
+        "date": ["2024-11-06", "2024-11-11"],
+        "title": "Lyon Jazz Festival",
+        "content": "Enjoy world-class jazz performances from renowned artists.",
+        "place": "Parc de la Tête d'Or",
+        "category": "Technology"
+    },
+    {
+        "date": "2024-11-19",
+        "title": "Art & Sculpture Exhibition",
+        "content": "Experience breathtaking sculptures and paintings by local artists.",
+        "place": "Musée des Beaux-Arts de Lyon",
+        "category": "Music"
+    },
+    {
+        "date": ["2024-12-10", "2024-12-14"],
+        "title": "Gastronomy and Wine Fair",
+        "content": "Explore the best of Lyon's food and wine in this annual fair.",
+        "place": "Halle Tony Garnier",
+        "category": "History"
+    },
+    {
+        "date": "2024-10-18",
+        "title": "Historical Walk Through Old Lyon",
+        "content": "Take a guided walk through Lyon's historic district.",
+        "place": "Vieux Lyon District",
+        "category": "History"
+    },
+    {
+        "date": ["2025-03-15", "2025-03-17"],
+        "title": "Tech Innovators Meetup",
+        "content": "Meet tech enthusiasts and discuss groundbreaking innovations.",
+        "place": "Lyon Convention Centre",
+        "category": "History"
+    },
+    {
+        "date": ["2025-03-18", "2025-03-21"],
+        "title": "Lyon Symphony Orchestra Night",
+        "content": "An evening filled with mesmerizing symphony performances.",
+        "place": "Auditorium Orchestre National",
+        "category": "Art"
+    },
+    {
+        "date": "2024-11-27",
+        "title": "Modern Art Gallery Tour",
+        "content": "Discover modern art pieces from upcoming and established artists.",
+        "place": "MAC Lyon - Museum of Contemporary Art",
+        "category": "Food"
+    },
+    {
+        "date": ["2024-11-22", "2024-11-24"],
+        "title": "Medieval Architecture Tour",
+        "content": "Step back in time with this guided tour of medieval landmarks.",
+        "place": "Basilica of Notre-Dame de Fourvière",
+        "category": "Music"
+    },
+    {
+        "date": ["2025-02-13", "2025-02-18"],
+        "title": "Classic Film Screening: French Cinema",
+        "content": "Relive the golden era of French cinema with classic film screenings.",
+        "place": "Cinéma Lumière Bellecour",
+        "category": "History"
+    },
+    {
+        "date": ["2025-02-08", "2025-02-12"],
+        "title": "Street Food Festival",
+        "content": "Taste a variety of international and local cuisines at this festival.",
+        "place": "Rue des Marronniers",
+        "category": "Art"
+    }
+]

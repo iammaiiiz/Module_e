@@ -1,0 +1,29 @@
+{
+    "reviews" : [
+        {
+            "author": "Alice Martin",
+            "content": "The festival was amazing! Great music and atmosphere.",
+            "rating": 5
+        },
+        {
+            "author": "John Doe",
+            "content": "Good experience, but the food options were limited.",
+            "rating": 4
+        },
+        {
+            "author": "Sophia Lee",
+            "content": "It was okay, but a bit overcrowded.",
+            "rating": 3
+        },
+        {
+            "author": "Michael Brown",
+            "content": "Not what I expected. The event felt unorganized.",
+            "rating": 2
+        },
+        {
+            "author": "Emily Davis",
+            "content": "Very disappointing. Poor management and lack of activities.",
+            "rating": 1
+        }
+    ]
+}

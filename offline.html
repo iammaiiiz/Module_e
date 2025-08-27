@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyon Tourist Page - offline</title>
+    <style>
+        :root {
+            --colorMain: #234990;
+            --colorSub: crimson;
+            --colorAccent: gold;
+            --colorText: #031330;
+            --colorBackground: aliceblue;
+            --gapSection: clamp(3dvw, 6rem, 6dvw);
+            --gapContent: clamp(1dvw, 2rem, 2dvw);
+            --fs1: clamp(4dvw, 6rem + 1.5rem, 8dvw);
+            --fs2: clamp(2dvw, 3rem + 1rem, 4dvw);
+            --fs3: clamp(1dvw, 1rem + .5rem, 1.5dvw);
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--colorText);
+            font-size: var(--fs3);
+        }
+
+        body {
+            width: 100dvw;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: var(--gapSection);
+            background: var(--colorBackground);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 10dvh;
+        }
+
+        /* Utils */
+        img,
+        picture,
+        source {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        a {
+            all: unset;
+            color: var(--colorBackground);
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+                scale: 1.05;
+                filter: drop-shadow(0 0 .5rem var(--colorBackground));
+            }
+        }
+
+        h2 {
+            font-size: var(--fs2);
+        }
+
+        section {
+            height: 90dvh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: var(--gapContent);
+            padding: var(--gapContent) var(--gapSection);
+            position: relative;
+        }
+
+        button {
+            all: unset;
+            padding: 2dvh 2dvw;
+            background: var(--colorAccent);
+            border-radius: .5rem;
+            font-weight: bold;
+        }
+
+        header {
+            width: 100dvw;
+            height: 8dvh;
+            background: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #Info {
+            height: calc(90dvh / 1.618);
+            background: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <strong>Welcome Lyon</strong>
+    </header>
+    <section id="Info">
+        <h2>Essential Information</h2>
+        <p>Contact : 04 72 10 30 30 <br> Address : Mairie de Lyon. 69205 cedex 01</p>
+        <button type="button">Pronounce it</button>
+    </section>
+    <script>
+        const pronounceBtn = document.querySelector('#Info button')
+        const pronounceText = document.querySelector('#Info p').textContent
+        pronounceBtn.addEventListener('click', () => {
+            const text = new SpeechSynthesisUtterance(pronounceText)
+            text.lang = 'fr-FR'
+            speechSynthesis.cancel()
+            speechSynthesis.speak(text)
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyon Tourist Page</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+    <header>
+        <strong>Welcome Lyon</strong>
+        <nav>
+            <a href="#Map">Map</a>
+            <a href="#Video">Video</a>
+            <a href="#Info">Info</a>
+            <a href="#Events">Events</a>
+            <a href="#Tabs">Tabs</a>
+            <a href="#Calendar">Calendar</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Coupon">Coupon</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="Hero">
+        <picture>
+            <source media="(min-width: 760px)" srcset="./assets/images/cover.jpg">
+            <img src="./assets/images/cover-low-res.jpg" alt="A cobblestone street between two building has stores and blue scooter.">
+        </picture>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Lyon city</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, pariatur!</p>
+        </div>
+        <div id="cta">
+            <div class="light"></div>
+            <button type="button">
+                <div class="light"></div>
+                <span>Explore more</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="Map">
+        <h2>Map Attraction</h2>
+        <div class="grid">
+            <a href="">
+                <figure class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="./assets/images/attraction-a.jpg">
+                        <img src="./assets/images/attraction-a-low-res.jpg" alt="A sunset view featuring skyline in evening and under have a bus on street around with trees.">
+                    </picture>
+                    <figcaption>Parc de la Tete d'Or</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="./assets/images/attraction-b.jpg">
+                        <img src="./assets/images/attraction-b-low-res.jpg" alt="A cobblestone street between two building has stores and people walking.">
+                    </picture>
+                    <figcaption>Rue des marroniers</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="./assets/images/attraction-c.jpg">
+                        <img src="./assets/images/attraction-c-low-res.jpg" alt="A green river suround with trees and building.">
+                    </picture>
+                    <figcaption>La Saone</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="./assets/images/all-attractions.jpg">
+                        <img src="./assets/images/all-attractions-low-res.jpg" alt="A man ride horuse statue in the city.">
+                    </picture>
+                    <figcaption>All Attraction</figcaption>
+                </figure>
+            </a>
+            <div class="map">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/images/lyon-map.jpg">
+                    <img src="./assets/images/lyon-map-low-res.jpg" alt="A Lyon map contain street line and landmark.">
+                </picture>
+                <div class="pin"><span>A</span></div>
+                <div class="pin"><span>B</span></div>
+                <div class="pin"><span>C</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Video">
+        <h2>Video Playback</h2>
+        <video src="./assets/videos/lyon.mp4" autoplay muted loop></video>
+    </section>
+
+    <section id="Info">
+        <h2>Essential Information</h2>
+        <p>Contact : 04 72 10 30 30 <br> Address : Mairie de Lyon. 69205 cedex 01</p>
+        <button type="button">Pronounce it</button>
+    </section>
+
+    <section id="Events">
+        <h2>Latest Events</h2>
+        <div class="slide">
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/worldskills-2024-p.jpg">
+                    <img src="./assets/latest-events-images/worldskills-2024-p-low-res.png" alt="Lyon banner anounce for Lyon accueille la finale mondiale des Worldskills 2024.">
+                </picture>
+                <figcaption>Lyon accueille la finale mondiale des Worldskills 2024</figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/fda-p.jpg">
+                    <img src="./assets/latest-events-images/fda-p-low-res.jpg" alt="A Forum des associations 2024 for talking their activity.">
+                </picture>
+                <figcaption>Forum des associations 2024</figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/lyon-kayak-p-0.jpg">
+                    <img src="./assets/latest-events-images/lyon-kayak-p-0-low-res.jpg" alt="Many peaple are kayaking on the sunny day.">
+                </picture>
+                <figcaption>Lyon Kayak</figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/semaine-bleue-2024-p.jpg">
+                    <img src="./assets/latest-events-images/semaine-bleue-2024-p-low-res.jpg" alt="A Colourful banner for La semaine bleue 2024.">
+                </picture>
+                <figcaption>La semaine bleue 2024</figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/village-des-metiers-p.jpg">
+                    <img src="./assets/latest-events-images/village-des-metiers-p-low-res.jpg" alt="A white tent and sign navigate to worldskills event.">
+                </picture>
+                <figcaption>Le Village des Métiers</figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="./assets/latest-events-images/journees_portes_ouvertes_entreprises_2023_p.jpg">
+                    <img src="./assets/latest-events-images/journees_portes_ouvertes_entreprises_2023_p.jpg" alt="A man is painting an art with peaple seeing him.">
+                </picture>
+                <figcaption>Les Journées Portes Ouvertes des Entreprises</figcaption>
+            </figure>
+        </div>
+    </section>
+    <hr>
+    <section id="Tabs">
+        <h2>Other Information</h2>
+        <ul role="tablist" id="tablist" tabindex="0">
+            <li role="tab" id="tab1" aria-selected="true">Tab 1</li>
+            <li role="tab" id="tab2" aria-selected="false">Tab 2</li>
+            <li role="tab" id="tab3" aria-selected="false">Tab 3</li>
+        </ul>
+        <div class="panal" id="panal1" role="tabpanel" aria-labelledby="tab1" aria-hidden="false">This is the content for Tab 1.</div>
+        <div class="panal" id="panal2" role="tabpanel" aria-labelledby="tab2" aria-hidden="true">This is the content for Tab 2.</div>
+        <div class="panal" id="panal3" role="tabpanel" aria-labelledby="tab3" aria-hidden="true">This is the content for Tab 3.</div>
+    </section>
+
+    <section id="Calendar">
+        <h2>Event Calendar</h2>
+        <div class="btns">
+            <button type="button" onclick="handleCalendar(-1)">Prev</button>
+            <div id="my"></div>
+            <button type="button" onclick="handleCalendar(1)">Next</button>
+        </div>
+        <table></table>
+    </section>
+
+    <section id="Reviews">
+        <h2>Reviews</h2>
+        <div class="slide">
+        </div>
+        <div class="btns">
+            <button type="button" onclick="handleReview(-1)">Prev</button>
+            <button type="button" onclick="handleReview(1)">Next</button>
+        </div>
+    </section>
+<hr>
+    <section id="Coupon">
+        <h2>Coupon Event</h2>
+        <div class="bag">
+            <div class="lid"></div>
+            <div class="hand"></div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div class="group">
+                <label>First name : <br> <input type="text"></label>
+                <label>Last name : <br> <input type="text"></label>
+                <label>Email : <br> <input type="email"></label>
+                <label>Phone : <br> <input type="tel"></label>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <aside>
+            <strong>Lyon city</strong>
+            <p>&copy; 2025. All Right Reserved.</p>
+        </aside>
+        <nav>
+            <a href="">About Us</a>
+            <a href="">Getting Here</a>
+            <a href="">FAQs</a>
+            <a href="">Places to Stay</a>
+            <a href="">Things to Do</a>
+            <a href="">Events Calendar</a>
+            <a href="">Restaurants</a>
+            <a href="">Nightlife</a>
+            <a href="">Shopping</a>
+            <a href="">Plan Your Trip</a>
+            <a href="">Contact Us</a>
+            <a href="">Newsletter Signup</a>
+        </nav>
+    </footer>
+    
+    <dialog>
+        <form action="" method="dialog">
+            <p></p>
+            <button type="button"></button>
+        </form>
+    </dialog>
+    <script src="./assets/js/app.js" defer></script>
+</body>
+</html>
